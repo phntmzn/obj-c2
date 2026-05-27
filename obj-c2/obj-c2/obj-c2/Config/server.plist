@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>port</key>
+    <integer>4444</integer>
+    <key>ssl_enabled</key>
+    <false/>
+    <key>cert_path</key>
+    <string>./certs/server.crt</string>
+    <key>key_path</key>
+    <string>./certs/server.key</string>
+    <key>database_path</key>
+    <string>./data/c2_server.db</string>
+    <key>max_connections</key>
+    <integer>100</integer>
+</dict>
+</plist>
